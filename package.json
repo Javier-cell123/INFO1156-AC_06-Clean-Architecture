@@ -6,7 +6,7 @@
     "license": "MIT",
     "packageManager": "pnpm@10.33.2",
     "scripts": {
-        "build": "pnpm prisma generate && nest build",
+        "build": "npx prisma generate && nest build",
         "format": "prettier --write \"src/**/*.ts\"",
         "format:check": "prettier --check \"src/**/*.ts\"",
         "start": "nest start",
